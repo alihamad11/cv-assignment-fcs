@@ -80,3 +80,33 @@ ul {
 li {
     margin-bottom: 0.5rem;
 }
+
+
+a {
+    color: var(--primary-color);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: var(--accent-color);
+}
+
+
+.contact ul {
+    list-style: none;
+    margin-left: 0;
+}
+
+.contact li {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.contact i {
+    margin-right: 0.8rem;
+    color: var(--primary-color);
+    width: 1.2rem;
+    text-align: center;
+}
